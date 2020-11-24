@@ -1,0 +1,101 @@
+/*colors and fonts*/
+
+body {
+	background:#ffeefd3d;
+	color:#42609e;
+	font-family: 'Lora', serif;
+	font-size:15px;
+}
+h1{ 
+	font-family: 'Lora', serif;
+	color:#595b83;
+	font-size:30px;
+	font-weight:200px;
+	text-shadow: 0px 5px 20px #5d619e78;
+
+}
+	
+
+h2 {
+	font-family: 'Lora', serif;
+	color:#8C035E;
+	font-size:22;
+	
+}
+a {
+	text-decoration:none;
+	color:#440d36;
+	size: : 400px;
+}
+a:hover {
+	color: #F4E1EB
+	size: 150px;
+
+}
+
+ul {padding: 0;
+}
+
+
+.container {
+  width: 700px; 
+  margin: 40px auto; 
+}
+
+.card-white {
+	background: white;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.text-justify {
+   text-align: justify;
+   text-align: center;
+}
+
+.image-round {
+	border-radius: 50%
+}
+
+.button {
+	background-color:#8c035e;
+	padding:13px 20px;
+	border-radius:30px; 
+	color: white;
+	font-weight: bold;
+
+}
+
+a.button:hover{
+	background-color:#F4E1EB;
+	padding:13px 20px;
+	border-radius:30px; 
+	color: white;
+	font-weight: bold;
+	transition: 0.6s;
+}
+
+
+
+@media (max-width: 2000px) {
+  .container {
+    width: 800px;
+  }
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+
+
